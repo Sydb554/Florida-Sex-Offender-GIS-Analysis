@@ -1,5 +1,5 @@
 # Florida-Sex-Offender-GIS-Analysis
-Personal Project: Geospatial analysis of 78,000+ Florida sex offender records using Python and QGIS. Identified _____+ potential violations of 1,000-foot legal restriction
+Personal Project: Geospatial analysis of 78,000+ Florida sex offender records using Python and QGIS. Identified 7400+ potential violations of 1,000-foot legal restriction
 
 ### Project Overview:
 ***
@@ -21,9 +21,10 @@ This project involved a comprehensive analysis of over 78,000 records of registe
 * Scope of Data: Analysis was strictly limited to the permanent addresses of registered sex offenders.
 * State Laws: While some counties or cities have their own laws for sex offenders regarding distances, the state law states 1,000 ft (measured in a straight line from the offender's residence to the nearest boundary of the prohibited place).
 * GitHub Code: The code on this page is only the Python scripts used for collecting, cleaning, and checking the data, and doesn't include the mapping visuals or the results from QGIS.
+* This is a huge underestimate due to data and time constraints. With the proper resources and time dedication to this project, their is almost a guarantee to be more sex offenders in violation.
 
 ### Conclusions:
 *** 
-* Key Findings: Over ______ potential compliance violations were identified, with data validation through Python and QGIS reinforcing the reliability of the findings.
+* Key Findings: Over 7400 potential compliance violations were identified, with data validation through Python and QGIS reinforcing the reliability of the findings.
 * Implications for Policy and Enforcement: Highlights the need for enhanced monitoring and enforcement of legal restrictions, offering a methodological approach that can be adapted for broader public safety applications.
 * Outcomes: In December 2024, counties and cities with sex offenders violating the 1,000 ft rule were contacted. They were alerted about the violators, their violating addresses, and the nearby school, public park, or childcare center within 1,000 feet. This outreach was facilitated by a script I wrote to find contact info and automate sending the emails.
